@@ -1,13 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Hide Discord Channel List",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discordのチャンネルリストの表示/非表示を切り替えるボタンを追加します",
-  "host_permissions": [
-    "https://discord.com/*",
-    "https://canary.discord.com/*",
-    "https://ptb.discord.com/*"
-  ],
   "content_scripts": [
     {
       "matches": [
