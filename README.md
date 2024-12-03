@@ -10,10 +10,10 @@ Discordのチャンネルリストの表示/非表示を切り替えるボタン
 
 ## 使い方
 画面右上に表示される「☰」をクリックすることでチャンネルリストの表示/非表示を切り替えることができます。
-<img src="https://cdn.oto.pet/img/ex_before_b">
-<img src="https://cdn.oto.pet/img/ex_after_b">
-<img src="https://cdn.oto.pet/img/ex_before_l">
-<img src="https://cdn.oto.pet/img/ex_after_l">
+<img src="https://cdn.oto.pet/img/ex_before_b.png">
+<img src="https://cdn.oto.pet/img/ex_after_b.png">
+<img src="https://cdn.oto.pet/img/ex_before_l.png">
+<img src="https://cdn.oto.pet/img/ex_after_l.png">
 
 ## Get Support
 <a href="https://discord.gg/yKW8wWKCnS"><img src="https://discordapp.com/api/guilds/1005287561582878800/widget.png?style=banner4" alt="Discord Banner"/></a>
