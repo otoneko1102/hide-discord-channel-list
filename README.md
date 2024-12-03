@@ -12,7 +12,7 @@ Discordのチャンネルリストの表示/非表示を切り替えるボタン
 
 ## 使い方
 ### ダウンロード
-- ~~Chromeウェブストア~~
+- [Chromeウェブストア](https://chromewebstore.google.com/detail/hide-discord-channel-list/afnnekedjmpfllofmhfaaneckooaconj)
 - [GitHub Releases](https://github.com/otoneko1102/hide-discord-channel-list/releases)
 ### 説明
 画面右上に表示される「☰」をクリックすることでチャンネルリストの表示/非表示を切り替えることができます。
