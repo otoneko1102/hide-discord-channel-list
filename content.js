@@ -106,8 +106,9 @@ function monitorUnreadMentionsIndicator() {
       if (mutation.addedNodes) {
         mutation.addedNodes.forEach((node) => {
           if (
-            node.nodeType === 1 &&
-            node.className.includes("unreadMentionsIndicatorTop_")
+            node.nodeType == 1 &&
+            node.classList &&
+            [...node.classList].some((className) => className.includes("unreadMentionsIndicatorTop_"))
           ) {
             node.style.zIndex = "10000";
           }
