@@ -17,9 +17,9 @@ function addToggleButton() {
   button.style.borderRadius = "50%";
   button.style.cursor = "pointer";
   button.style.position = "fixed";
-  button.style.top = "10px";
+  button.style.top = "35px";
   button.style.left = "12px";
-  button.style.zIndex = "9000";
+  button.style.zIndex = "10000";
   button.style.display = "flex";
   button.style.alignItems = "center";
   button.style.justifyContent = "center";
@@ -51,7 +51,7 @@ function addToggleButton() {
 
   const scrollElements = document.querySelectorAll('[class*="scroller_"]');
   scrollElements.forEach((element) => {
-    element.style.marginTop = "65px";
+    element.style.marginTop = "85px";
   });
 
   observeHtmlClassChanges(button);
@@ -82,7 +82,7 @@ function getHoverTheme() {
   return {
     hoverBackground: "#5865f2",
     hoverColor: "#ffffff",
-  };
+  }
 }
 
 function observeHtmlClassChanges(button) {
@@ -100,29 +100,6 @@ function observeHtmlClassChanges(button) {
   });
 }
 
-function monitorUnreadMentionsIndicator() {
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
-      if (mutation.addedNodes) {
-        mutation.addedNodes.forEach((node) => {
-          if (
-            node.nodeType == 1 &&
-            node.classList &&
-            [...node.classList].some((className) => className.includes("unreadMentionsIndicatorTop_"))
-          ) {
-            node.style.zIndex = "10000";
-          }
-        });
-      }
-    });
-  });
-
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true,
-  });
-}
-
 function initialize() {
   const intervalId = setInterval(() => {
     const htmlElement = document.querySelector("html");
@@ -132,8 +109,6 @@ function initialize() {
       clearInterval(intervalId);
     }
   }, 1000);
-
-  monitorUnreadMentionsIndicator();
 }
 
 initialize();
