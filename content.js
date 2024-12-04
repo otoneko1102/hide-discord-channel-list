@@ -1,5 +1,5 @@
 let isEnable = true;
-
+ 
 function addToggleButton() {
   if (document.getElementById("sidebar-toggle-button")) return;
 
@@ -68,11 +68,11 @@ function toggleVisibility() {
 function setButtonTheme(button) {
   const htmlElement = document.querySelector("html");
   if (htmlElement && htmlElement.className.includes("theme-light")) {
-    // Lightテーマ用スタイル
+    // Lightテーマ用
     button.style.backgroundColor = "#f2f2f2";
     button.style.color = "#313338";
   } else {
-    // Darkテーマ用スタイル
+    // Darkテーマ用
     button.style.backgroundColor = "#313338";
     button.style.color = "#ffffff";
   }
