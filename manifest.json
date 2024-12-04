@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hide Discord Channel List",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Discordのチャンネルリストの表示/非表示を切り替えるボタンを追加します",
   "content_scripts": [
     {

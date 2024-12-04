@@ -1,10 +1,12 @@
+let isEnable = true;
+
 function addToggleButton() {
   if (document.getElementById("sidebar-toggle-button")) return;
 
   const button = document.createElement("button");
   button.id = "sidebar-toggle-button";
   button.textContent = "☰";
-  button.title = "Toggle Visibility of Channel List";
+  button.title = "チャンネルリストを非表示";
 
   setButtonTheme(button);
 
@@ -38,6 +40,8 @@ function addToggleButton() {
 
   button.addEventListener("click", () => {
     toggleVisibility();
+    button.title = isEnable ? "チャンネルリストを表示" : "チャンネルリストを非表示";
+    isEnable = !isEnable;
   });
 
   const scrollerElement = document.querySelector('[class*="scroller_"]');
@@ -98,9 +102,10 @@ function observeHtmlClassChanges(button) {
 
 function initialize() {
   const intervalId = setInterval(() => {
-    addToggleButton();
+    const htmlElement = document.querySelector("html");
 
-    if (document.getElementById("sidebar-toggle-button")) {
+    if (htmlElement && htmlElement.classList.contains("show-redesigned-icons")) {
+      addToggleButton();
       clearInterval(intervalId);
     }
   }, 1000);
