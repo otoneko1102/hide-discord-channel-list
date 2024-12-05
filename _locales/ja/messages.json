@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Hide Discord Channel List"
+  },
+  "Description": {
+    "message": "Discordのチャンネルリストの表示/非表示を切り替えるボタンを追加します"
+  },
+  "Show": {
+    "message": "チャンネルリストを非表示"
+  },
+  "Hide": {
+    "message": "チャンネルリストを表示"
+  }
+}

@@ -1,12 +1,15 @@
+const showMsg = chrome.i18n.getMessage('Show');
+const hideMsg = chrome.i18n.getMessage('Hide');
+
 let isEnable = true;
- 
+
 function addToggleButton() {
   if (document.getElementById("sidebar-toggle-button")) return;
 
   const button = document.createElement("button");
   button.id = "sidebar-toggle-button";
   button.textContent = "☰";
-  button.title = "チャンネルリストを非表示";
+  button.title = showMsg;
 
   setButtonTheme(button);
 
@@ -40,7 +43,7 @@ function addToggleButton() {
 
   button.addEventListener("click", () => {
     toggleVisibility();
-    button.title = isEnable ? "チャンネルリストを表示" : "チャンネルリストを非表示";
+    button.title = isEnable ? hideMsg : showMsg;
     isEnable = !isEnable;
   });
 

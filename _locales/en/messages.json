@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Hide Discord Channel List"
+  },
+  "Description": {
+    "message": "Adds a button to show/hide the Discord channel list"
+  },
+  "Show": {
+    "message": "Hide Channel List"
+  },
+  "Hide": {
+    "message": "Show Channel List"
+  }
+}
