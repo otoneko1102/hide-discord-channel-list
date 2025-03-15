@@ -2,18 +2,21 @@
   "manifest_version": 3,
   "default_locale": "en",
   "name": "__MSG_Name__",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "__MSG_Description__",
   "content_scripts": [
     {
       "matches": [
-        "https://discord.com/*",
-        "https://canary.discord.com/*",
-        "https://ptb.discord.com/*"
+        "*://discord.com/*",
+        "*://canary.discord.com/*",
+        "*://ptb.discord.com/*"
       ],
       "js": ["content.js"]
     }
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "icons": {
     "16": "icons/16x16.png",
     "48": "icons/48x48.png",
