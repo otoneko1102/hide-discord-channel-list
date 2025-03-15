@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Nascondi Elenco Canali Discord"
+  },
+  "Description": {
+    "message": "Aggiunge un pulsante per mostrare/nascondere l'elenco dei canali di Discord"
+  },
+  "Show": {
+    "message": "Nascondi Elenco Canali"
+  },
+  "Hide": {
+    "message": "Mostra Elenco Canali"
+  }
+}

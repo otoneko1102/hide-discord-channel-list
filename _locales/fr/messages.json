@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Masquer la liste des canaux Discord"
+  },
+  "Description": {
+    "message": "Ajoute un bouton pour afficher/masquer la liste des canaux Discord"
+  },
+  "Show": {
+    "message": "Masquer la liste des canaux"
+  },
+  "Hide": {
+    "message": "Afficher la liste des canaux"
+  }
+}

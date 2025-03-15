@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Discord-Kanalliste ausblenden"
+  },
+  "Description": {
+    "message": "Fügt eine Schaltfläche hinzu, um die Discord-Kanalliste ein- oder auszublenden"
+  },
+  "Show": {
+    "message": "Kanalliste ausblenden"
+  },
+  "Hide": {
+    "message": "Kanalliste anzeigen"
+  }
+}
