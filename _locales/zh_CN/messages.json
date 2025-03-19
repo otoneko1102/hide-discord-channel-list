@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "隐藏 Discord 频道列表"
+  },
+  "Description": {
+    "message": "添加一个按钮以显示/隐藏 Discord 频道列表"
+  },
+  "Show": {
+    "message": "隐藏频道列表"
+  },
+  "Hide": {
+    "message": "显示频道列表"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Ocultar Lista de Canais do Discord"
+  },
+  "Description": {
+    "message": "Adiciona um botão para mostrar/ocultar a lista de canais do Discord"
+  },
+  "Show": {
+    "message": "Ocultar Lista de Canais"
+  },
+  "Hide": {
+    "message": "Mostrar Lista de Canais"
+  }
+}

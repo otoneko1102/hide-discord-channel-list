@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "隱藏 Discord 頻道列表"
+  },
+  "Description": {
+    "message": "添加一個按鈕來顯示/隱藏 Discord 頻道列表"
+  },
+  "Show": {
+    "message": "隱藏頻道列表"
+  },
+  "Hide": {
+    "message": "顯示頻道列表"
+  }
+}

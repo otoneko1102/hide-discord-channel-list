@@ -1,0 +1,14 @@
+{
+  "Name": {
+    "message": "Discord 채널 목록 숨기기"
+  },
+  "Description": {
+    "message": "Discord 채널 목록을 표시하거나 숨길 수 있는 버튼을 추가합니다"
+  },
+  "Show": {
+    "message": "채널 목록 숨기기"
+  },
+  "Hide": {
+    "message": "채널 목록 표시"
+  }
+}
